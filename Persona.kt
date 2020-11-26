@@ -1,17 +1,31 @@
+/*class Persona{
+    var nombre:String = ""
+    var apellido:String = ""
+    constructor(){
+    }
+    constructor(n:String, a:String):this()
+    {
+    nombre=n
+    apellido=a
+    }
+   }
+   fun main(){
+    var persona = Persona("Yesser","Miranda")
+    var nueva = Persona()
+    nueva.nombre = "Juan"
+    nueva.apellido = "Lopez"
+    println(persona.nombre)
+    println(nueva.nombre)
+   }
+   */
  class Persona(var nombre:String, var apellido:String)
 
- constructor(){
- }
- constructor(nombre:String, apellido:String):this()
- {
- nombre=n
- apellido=a
- }
 fun main(){
  var persona = Persona("Yesser","Miranda")
- var nueva = Persona()
+ /*var nueva = Persona()
  nueva.nombre = "Juan"
  nueva.apellido = "Lopez"
- println(persona.nombre)
- println(nueva.nombre)
+ */
+ println(persona.apellido)
+ /*println(nueva.nombre)*/
 }
